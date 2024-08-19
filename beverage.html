@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Beverage Store Chain - Excel Dashboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Data Analyst Portfolio</strong> <span>by Smruti Dalvi</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#footer">Contact</a></li>
+						<div class="dropup">
+							<button class="dropbtn">Portfolio Projects</button>
+  							<div class="dropup-content">
+									<a href="excel.html">Excel</a>
+									<a href="sql.html">SQL</a>
+									<a href="python.html">Python</a>
+									<a href="powerbi.html">Power BI</a>
+									<a href="https://public.tableau.com/app/profile/smruti.dalvi/vizzes" target="_blank" class="link">Tableau</a>
+									<a href="zoho.html">ZOHO</a>
+							</div>
+						</div>
+					</ul>						
+				</nav>
+
+
+				<!-- Main -->
+					<div id="main" class="alt">
+						
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Project Details</h1>
+									</header>
+									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+									<h2>Aim</h2>
+									<p>To analyze the profitability, customer behaviour, and store performance, providing actionable insights to enhance business strategy and operations.</p>
+									<a href="https://github.com/smrutid/Dashboarding-in-Excel" target="_blank">Download from GitHub!</a>
+									<p></p>
+
+                                    <h2>Problem Statment</h2>
+									<p>The beverage store chain requires a comprehensive analysis of its profitability and revenue across different dimensions, including customer demographics & product performance. The goal was to identify key areas for improvement and support data-driven decision-making.</p>
+									<p></p>
+
+                                    <h2>Tools Used</h2>
+                                    <ul>
+                                        <li><b>Excel:</b> The unsung hero of the project! Excel was used to craft interactive, eye-catching dashboards, leveraging its advanced features like PivotTables, charts, and slicers. Who knew Excel could be so refreshing?</li>
+                                        <li><b>Power Query:</b> Used for efficient data modification and transformation, ensuring the data feeding into the dashboards was accurate and ready for analysis.</li>
+                                    </ul>
+                                    <p></p>
+
+                                    <h2>Key Dashboards Developed</h2>
+                                    <ol>
+                                        <li><b>Customer & Product Analysis:</b> Insights into customer profitability, spending patterns, and top-selling products.</li>
+                                        <li><b>Revenue Analysis:</b> Quarterly and monthly revenue tracking, with a focus on weekday vs. weekend performance.</li>
+                                    </ol>
+                                    <p></p>
+
+									<h2>Setup</h2>
+									<p>
+                                        To begin the project, I conducted data cleaning to ensure accurate analysis. This involved removing duplicate entries to prevent bias in the dataset and eliminating unnecessary columns. I also transformed the Birthdate column to create age groups for more effective data visualization. Additionally, the date column was utilized to generate groupings such as month, week type, and quarter. Finally, I verified that there was no missing data and that each field was assigned the correct data type.</p>
+									<!--<img src="images/excelbikework1.png" alt="Excel Worksheet after Data Cleaning" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 1. This image shows the dataset after it was cleaned.</i></p>-->
+									
+									<h2>Analysis</h2>
+									<p>Now that we have clean data, we can perform exploratory data analysis to gain insights and patterns in the data.</p>
+									<h4>Business Questions:</h4>
+									<ol>
+										<li>Which age group is the most frequent purchaser of beverages from the shop?</li>
+										<li>What is the predominant gender of customers buying beverages from the shop?</li>
+										<li>Which customer segments contribute the most to profitability?</li>
+										<li>Which region has the highest concentration of beverage customers?</li>
+										<li>Which products generate the highest profit margins?</li>
+                                        <li>Which product categories have the highest sales volume?</li>
+										<li>What percentage of products are returned by customers?</li>
+										<li>What are the monthly profit trends throughout the year?</li>
+										<li>How do weekday sales differ from weekend sales?</li>										
+										<li>How does actual revenue stack up against the set targets?</li>
+										
+									</ol>
+
+									<p>By answering these questions, the business can optimize product offerings, tailor marketing strategies, improve customer retention, better align revenue with targets, address product return issues, and focus on high-margin areas to maximize profitability.</p>
+									
+									<h2>Data Exploration</h2>									
+
+									<p>I utilized the available data to create charts that highlight key insights. Additionally, various functions were employed to perform calculations like COGS and profit margins.</p>
+									<img src="images/datamodel.png" alt="Data Model" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 1. This image shows the how five tables have been modeled.</i></p>
+
+									<p>To make it easy to view all this information at once, I have created two dashboard that displays all the charts. I have also added a slicer to the dashboard, which allows users to filter the data based on different criteria. Along with this, I have hyperlinked both the dahboards for better user experience.</p>
+                                    <h4>Customer & Product Analysis</h4>
+                                    <ul>
+                                        <li><b>Customer Insights:</b> Analyzes profit generated by male and female customers, and breaks down average spending by age groups to identify the most profitable segments.</li>
+                                        <li><b>Profitability Trends:</b> Tracks profit over time and calculates month-over-month growth, revealing seasonal patterns and sales trends.</li>
+                                        <li><b>Profit by Weekday:</b> Identifies the most profitable days of the week, which can guide staffing and marketing efforts.</li>
+                                        <li><b>Product Performance:</b> Highlights top-selling and most profitable products, along with return and refund rates—crucial for inventory management.</li>
+                                    </ul>
+									<img src="images\profit view.png" alt="Customer & Product Analysis Dashboard" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 2. This image shows the Customer & Product Analysis Dashboard.</i></p>
+                                    <h4>Revenue Analysis</h4>
+                                    <ul>
+                                        <li><b>Quarterly Revenue:</b> Provides a snapshot of revenue per quarter compared to the average, offering a clear view of overall performance.</li>
+                                        <li><b>Quarterly Revenue:</b> Compares revenue generated on weekdays versus weekends, aiding in operational and staffing decisions.</li>
+                                        <li><b>Monthly Revenue vs Target:</b> Tracks monthly performance against goals, supporting short-term financial planning and adjustments.</li>
+                                    </ul>
+                                    <img src="images\timeframe.png" alt="Revenue Analysis Dashboard" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 2. This image shows the Revenue Analysis Dashboard.</i></p>
+
+									<h3>Key Findings</h3>
+
+									<p>Using the dashboard, we were able to determine the following insights:
+									</p>
+									<ul>
+										<li><b>Age group:</b> Customers aged 51+ are the most profitable, with higher average spending compared to other age groups.</li>
+										<li><b>Gender insights:</b> Male customers, contribute a little more to overall revenue than their female counterparts.</li>
+										<li><b>Top performing products:</b> Top 5 products generate significantly higher profit margins compared to other products and thus, should be prioritized in inventory and marketing strategies.</li>
+										<li><b>Return rate:</b> The return rate is significantly low, which indicates that product quality is significatly good or good enough to meet customer expectation.</li>
+										<li><b>Weekday vs weekend sales:</b> Weekday sales consistently outperform weekend sales, suggesting that staffing and marketing efforts should be amplified on weekdays.</li>
+										<li><b>Revenues vs Targets:</b> Revenue frequently meets or exceeds targets in most months, but there are notable shortfalls during certain periods, necessitating adjustments to revenue targets and planning.</li>										
+									</ul>
+
+
+									<h3>Recommendations</h3>
+									<p>Based on these findings, the business can implement the following actionable steps to improve sales:</p>
+									<ul>
+										<li><b>Seasonal Inventory Planning:</b> Increase inventory levels and prepare promotional campaigns ahead of peak summer months to capitalize on the seasonal demand for beverages.</li>
+                                        <li><b>Optimize Weekday Operations:</b> Given the higher revenue on weekdays, consider increasing staff.</li>
+                                        <li><b>Product Line Adjustment:</b> Review and potentially discontinue products with high return rates and low profitability. Consider introducing new products or improving existing ones based on customer feedback.</li>
+                                        <li><b>Revenue Target Realignment:</b> Adjust revenue targets to reflect seasonal trends and store performance. This will help create more realistic and achievable goals, improving overall financial planning.</li>
+                                        <li><b>Customer Loyalty Programs:</b> Enhance loyalty programs to increase the rate of repeat customers. Consider offering special deals or rewards for frequent purchases to encourage customer retention.</li>
+                                        <li><b>Customer Feedback Utilization:</b> Actively use customer feedback to make improvements in products and services, ensuring that customer satisfaction remains high, which will likely lead to increased sales.</li>
+									</ul> 
+
+                                    <h2>Learnings</h2>
+                                    <ul>
+                                        <ol>
+                                            <li><b>Excel-ling Beyond Expectations:</b> Maximized Excel's Capabilities. Excel's advanced features proved invaluable in creating dashboards that deliver strategic insights, challenging the notion that Excel is just for basic analysis.</li>
+                                            <li><b>Data Transformation and Cleaning with Power Query:</b> Power Query played a crucial role in preparing and cleaning data, demonstrating how Excel can handle complex data operations and integration, further enhancing the dashboarding process.</li>
+                                        </ol>
+                                    </ul>
+
+									<p>In conclusion, these findings provide valuable insights into the demographics and preferences of beverage purchasers. By implementing these actionable steps, the business can improve sales and better cater to the needs and interests of its target market.</p>
+								</div>
+							</section>
+                        
+					</div>
+
+				<!-- Contact -->
+					<!--<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>-->
+						</div>
+					</section>
+
+				<!-- Footer -->
+				<section class="split">
+					<section>
+						<h4>Contact Information</h4>															
+					</section>
+				</section>
+			</div>
+									<!-- Footer -->
+									<footer id="footer">
+										<div class="inner">
+											<ul class="icons">
+												<li><a href="mailto:smrutidalvi404@gmail.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Twitter</span></a></li>
+												<li><a href="https://github.com/smrutid" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/smruti-dalvi" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+											<ul class="copyright">
+												<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+											</ul>
+										</div>
+									</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
