@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hospitality - Power BI Dashboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Data Analyst Portfolio</strong> <span>by Smruti Dalvi</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#footer">Contact</a></li>
+						<div class="dropup">
+							<button class="dropbtn">Portfolio Projects</button>
+							  <div class="dropup-content">
+									<a href="excel.html">Excel</a>
+									<a href="sql.html">SQL</a>
+									<a href="python.html">Python</a>
+									<a href="powerbi.html">Power BI</a>
+									<a href="https://public.tableau.com/app/profile/smruti.dalvi/vizzes" target="_blank" class="link">Tableau</a>
+									<a href="zoho.html">ZOHO</a>
+							</div>
+						 </div>
+					</ul>					
+				</nav>
+
+
+				<!-- Main -->
+					<div id="main" class="alt">
+						
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Hospitality Dashboard: Uncovering Revenue Insights</h1>
+									</header>
+									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+									<h2>Aim</h2>
+									<p>To develop a comprehensive data-driven dashboard that provides actionable insights for AtliQ Grands, enabling them to regain market share and increase revenue in the luxury/business hotels category by leveraging historical data and business intelligence.</p>
+									<a href="https://github.com/smrutid/Hospitality-Dashboard-Uncovering-Revenue-Insights" target="_blank">Download from GitHub!</a>
+									<p></p>
+
+									<h2>Problem Statment</h2>
+									<p>AtliQ Grands, a long-standing player in the hospitality industry, is losing market share and revenue due to strategic missteps and ineffective decision-making. Without an in-house data analytics team, they need to rely on external expertise to analyze historical data and provide insights that will inform better management decisions and help them regain their competitive edge.</p>
+									
+									<p></p>
+									
+									<h2>Setup</h2>
+									<ul>
+										<li><b>Data Integration:</b> The data was imported into Power BI, where relationships between the tables were established, primarily using 1-to-many cardinality to ensure data integrity and accurate analysis.</li>
+										<li><b>Custom Weekend Definition:</b> In the hospitality industry, weekends are critical for revenue. To align with industry practices, DAX functions like "WEEKDAY" and "IF" conditions were used to redefine weekends as Friday-Saturday, ensuring accurate weekend-specific analysis.</li>
+										<li><b>DAX Measures:</b> Advanced DAX formulas were employed to create key performance metrics such as revenue, total bookings, capacity, occupancy, RevPAR (Revenue per Available Room), ADR (Average Daily Rate), and more. These measures provided granular insights into the hotel's performance across different dimensions.</li>
+									</ul>
+									<img src="images/hosp_bi_datamodel.png" alt="HR Data after transformation" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 1. This image shows the data model</i></p>
+									<p>These steps were essential to ensure that the data was properly formatted for analysis and would yield accurate results.</p>
+									
+									<h2>Dashboard Design and Creation</h2>
+									<p> In this project, I have designed and created an interactive dashboard tailored to the needs of AtliQ Grands, a prominent hotel chain. The dashboard was built in Power BI and focused on visualizing key performance indicators (KPIs).</p>
+									<h4>Design Approach</h4>
+									<ul>
+										<li><b>User-Centric Design:</b> The dashboard was designed with a focus on user experience, allowing stakeholders to quickly access critical insights. Filters and slicers were prominently placed to allow users to drill down into specific data segments such as city, property, and booking platform. The layout includes various visual elements such as pie charts, line graphs, bar charts, and tables to present data in an easy-to-digest format.</li>
+										<li><b>Visual Clarity:</b> Key metrics are displayed using KPIs and graphs to provide an at-a-glance understanding of performance. A trends section highlights weekly patterns in occupancy and ADR, enabling quick identification of performance dips or peaks. Revenue and occupancy by city are visualized to show regional performance disparities.</li>
+										<li><b>Custom Metrics and Measures:</b> Dax was used to create custom measures, specifically for KPIs.</li>									
+									</ul>
+									
+									
+									<img src="images/hospitality.png" alt="HR Analytics Dashboard" style="width:1000px;height:500px;" data-position="center center" />
+									<p><i>Fig 2. This image shows the Hospitality Dashboard.</i></p>
+
+									<h2>Key Findings</h2>
+									<ul>
+										<ol>
+											<li><b>Revenue Concentration:</b> A significant portion of revenue is generated by major cities like Delhi and Mumbai, contributing over 60% to the total revenue. This indicates the potential for further growth in these regions.</li>
+											<li><b>Occupancy Rates:</b> Delhi has the highest occupancy rate at 60.44%, while other cities like Bangalore and Hyderabad have lower rates, suggesting a need for targeted marketing efforts.</li>
+											<li><b>RevPAR and ADR Trends:</b> There are noticeable fluctuations in RevPAR and ADR across weeks, with some weeks showing significant dips, indicating potential issues with pricing strategies or external market factors.</li>
+											<li><b>Booking Platform Performance:</b> Realization % and ADR vary across booking platforms, indicating that some channels are more profitable than others.</li>
+											<li><b>Category Revenue:</b> The luxury segment contributes the most to revenue but has lower occupancy compared to the business segment, highlighting an opportunity to optimize pricing or offer packages to increase occupancy in the luxury category.</li>
+										</ol>
+									</ul>
+
+									<h2>Recommendations</h2>
+									<ul>
+										<ol>
+											<li><b>Focused Marketing Initiatives:</b> Implement targeted marketing campaigns in cities with lower occupancy rates, particularly in Hyderabad and Bangalore, to boost bookings.</li>
+											<li><b>Optimize Pricing Strategies:</b> Review and adjust pricing strategies, especially in the luxury segment, to enhance occupancy without sacrificing revenue.</li>
+											<li><b>Channel Optimization:</b> Strengthen partnerships with high-performing booking platforms and consider renegotiating terms with underperforming channels to maximize overall revenue.</li>
+											<li><b>Address Seasonal Dips:</b> Launch strategic promotions or special offers during weeks with identified revenue dips to stabilize and potentially increase RevPAR and ADR during these periods.</li>
+											<li><b>Leverage Weekends:</b> Utilize the redefined weekends (Friday-Saturday) to create attractive weekend packages that could drive higher occupancy and revenue.</li>
+										</ol>
+									</ul>
+
+									<h2>Learnings</h2>
+									<ul>
+										<ol>
+											<li><b>Advanced DAX Usage:</b> This project enhanced your proficiency in DAX, particularly in creating custom metrics and manipulating data to align with industry-specific requirements.</li>										
+											<li><b>Hospitality Industry Insights:</b> Developed a stronger understanding of the hospitality industry's key metrics and how they influence business decisions, providing you with the knowledge to deliver impactful data-driven strategies.</li>
+										</ol>
+									</ul>
+
+									<h2>Conclusion</h2>
+									<p>
+										The dashboard provided AtliQ Grands with actionable insights to optimize revenue and occupancy, empowering data-driven decisions for improved market performance. This project also enhanced my skills in Power BI and advanced DAX, enabling me to deliver impactful analysis tailored to industry-specific needs.</p>
+
+									
+								</div>
+							</section>
+                        
+					</div>
+
+				<!-- Contact -->
+					<!--<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>-->
+						</div>
+					</section>
+
+				<!-- Footer -->
+				<section class="split">
+					<section>
+						<h4>Contact Information</h4>															
+					</section>
+				</section>
+			</div>
+									<!-- Footer -->
+									<footer id="footer">
+										<div class="inner">
+											<ul class="icons">
+												<li><a href="mailto:parristianna@yahoo.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Twitter</span></a></li>
+												<li><a href="https://github.com/tiannaparris" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/tianna-parris/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+											<ul class="copyright">
+												<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+											</ul>
+										</div>
+									</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
